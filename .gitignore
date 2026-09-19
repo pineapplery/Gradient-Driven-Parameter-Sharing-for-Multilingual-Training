@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Private working scripts / docs not part of this release
+scripts/*.md
+scripts/finetune_B2_trainer.py
+scripts/finetune_LoRA_trainer.py
+scripts/train_LoRA.sh
+scripts/train_gcc.sh
+scripts/train_multilang.sh
+cli/m4t/predict/README.md
+models/seamless_m4t_medium/README.md
+models/seamless_m4t_medium/b2_minimal.py

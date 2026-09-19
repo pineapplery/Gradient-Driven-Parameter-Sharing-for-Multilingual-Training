@@ -1,0 +1,53 @@
+# GDPS requirements — pinned, portable Python packages only.
+#
+# Excluded on purpose (see README "Environment Setup" for details):
+#   - RAPIDS / TensorRT / Transformer Engine / Apex / cuDF / cuML etc.
+#     These are optional NVIDIA/CUDA accelerator libraries left over from the
+#     original development image; GDPS itself does not import them.
+#   - Any `package @ file:///...` or `package @ git+...` line from the
+#     original `pip freeze`. Those point at local paths on the original
+#     machine (e.g. `/rapids/...`, `/224040284/...`) and are not portable.
+#   - `seamless_communication` — installed separately as an editable package,
+#     see README step 3.
+#
+# torch / torchaudio are built for CUDA 12.1; install from the PyTorch index:
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.2.2+cu121
+torchaudio==2.2.2+cu121
+triton==2.2.0
+
+# fairseq2 / fairseq2n are CUDA- and torch-version-specific and are NOT on
+# PyPI. Install them from the official fairseq2 wheel index that matches
+# your torch/CUDA combo (see README step 3) BEFORE installing this file,
+# or install everything else first and add these two last:
+#   fairseq2==0.2.1
+#   fairseq2n==0.2.1
+
+transformers==4.43.0
+datasets==2.18.0
+huggingface-hub==0.36.0
+
+numpy==1.24.4
+scipy==1.13.1
+scikit-learn==1.5.0
+pandas==2.0.3
+
+librosa==0.10.1
+soundfile==0.12.1
+sentencepiece==0.2.1
+
+sacrebleu==2.6.0
+bert-score==0.3.13
+unbabel-comet==2.2.7
+simuleval==1.1.4
+
+einops==0.8.0
+flash-attn==2.4.2
+pytorch-lightning==2.6.0
+
+# used by scripts/gradient_analysis_advanced.py and gradient_conflict_analysis.py
+# (plotting + progress bars for the gradient-analysis pipeline)
+matplotlib==3.7.5
+seaborn==0.13.2
+tqdm==4.66.4
