@@ -1,0 +1,174 @@
+NON-COMMERCIAL RESEARCH LICENSE
+
+Copyright (c) 2026 Ruiyan Sun
+
+This license applies to the source code contained in this repository
+(the "Software"), unless otherwise stated in a file or directory.
+
+1. GRANT OF RIGHTS
+
+Subject to the terms and conditions of this License, the copyright
+holder grants you a non-exclusive, worldwide, royalty-free license to:
+
+(a) use the Software for non-commercial research, academic, educational,
+and personal purposes;
+
+(b) reproduce the Software for such permitted purposes;
+
+(c) modify the Software for such permitted purposes; and
+
+(d) distribute the original or modified Software for such permitted
+purposes, provided that the copyright notice and this License are
+retained.
+
+2. PERMITTED NON-COMMERCIAL USE
+
+Permitted use includes, but is not limited to:
+
+(a) academic research conducted by universities or other non-commercial
+research institutions;
+
+(b) reproduction and verification of results reported in academic
+publications;
+
+(c) research experiments, benchmarking, and evaluation;
+
+(d) teaching and educational activities;
+
+(e) personal, non-commercial experimentation; and
+
+(f) modification or extension of the Software for the purposes described
+above.
+
+Use of the Software for academic research does not require payment of
+a licensing fee, provided that such use complies with this License.
+
+3. COMMERCIAL USE
+
+The rights granted under Section 1 do NOT include commercial use.
+
+"Commercial Use" means any use of the Software that is primarily
+intended for or directed toward commercial advantage, monetary
+compensation, revenue generation, or use in a commercial product or
+service.
+
+Commercial Use includes, but is not limited to:
+
+(a) incorporating the Software into a commercial product or service;
+
+(b) deploying the Software in a commercial or production system;
+
+(c) using the Software to provide a paid service or paid API;
+
+(d) using the Software to develop, operate, or support a commercial
+product or service;
+
+(e) using the Software for internal business purposes where the Software
+contributes materially to commercial operations or revenue
+generation; or
+
+(f) distributing the Software as part of a product or service offered
+for commercial purposes.
+
+Commercial Use is prohibited under this License unless the copyright
+holder has granted a separate written commercial license.
+
+4. COMMERCIAL LICENSE
+
+A person or organization wishing to use the Software for Commercial Use
+must obtain a separate written commercial license from the copyright
+holder before commencing such use.
+
+The terms, scope, duration, and licensing fee of a commercial license
+shall be determined separately by agreement between the copyright
+holder and the prospective commercial user.
+
+For commercial licensing inquiries, please contact:
+
+Ruiyan Sun
+Email: ruiyansun@link.cuhk.edu.cn
+
+5. ATTRIBUTION AND COPYRIGHT NOTICE
+
+Any permitted copy, distribution, or modified version of the Software
+must retain:
+
+(a) the original copyright notice;
+
+(b) a copy of this License; and
+
+(c) appropriate acknowledgment of the original authors and the
+corresponding academic publication, where applicable.
+
+6. MODIFICATIONS AND DERIVATIVE WORKS
+
+You may modify the Software for permitted non-commercial purposes.
+
+Any modified version distributed under this License must clearly state
+that modifications have been made and must retain the original
+copyright notice and this License.
+
+This License does not grant any right to use the name, trademarks,
+logos, or other identifying marks of the copyright holder or the
+associated institution for endorsement or promotional purposes.
+
+7. THIRD-PARTY MATERIALS
+
+This License applies only to the original Software for which the
+copyright holder has the necessary rights to grant this License.
+
+Third-party software, datasets, pretrained models, libraries, and other
+materials used by or referenced by the Software are NOT covered by this
+License unless explicitly stated otherwise.
+
+Such third-party materials remain subject to their respective licenses
+and terms of use.
+
+In particular, datasets and pretrained models used in the associated
+research but not included in this repository are not licensed under
+this License.
+
+Users are responsible for complying with all applicable third-party
+licenses and terms of use.
+
+8. NO PATENT LICENSE
+
+No patent rights or licenses are granted or implied by this License.
+
+9. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT,
+OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+10. TERMINATION
+
+Any rights granted under this License terminate automatically if you
+violate any of its terms.
+
+Upon termination, you must cease all use, reproduction, and distribution
+of the Software, except to the extent otherwise permitted by applicable
+law or by a separate written agreement with the copyright holder.
+
+11. RESERVATION OF RIGHTS
+
+All rights not expressly granted under this License are reserved by
+the copyright holder.
+
+Nothing in this License grants permission for Commercial Use without a
+separate written commercial license.
+
+12. ACADEMIC CITATION
+
+If the Software is used in academic research or in a publication,
+users are requested to cite the associated academic work as specified
+in the repository's README or CITATION file.
+
+END OF LICENSE
+
